@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/seamless.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <div id="fireworksContainer" style="display: none; z-index:10; position: absolute; top:0; left:0">
+        <video id="fireworks" muted="muted" preload="auto" src="/mp4/fireworks.mp4"></video>
+    </div>
+    <div id="videoContainer" style="display: block; z-index:1; position: absolute; top:0; left:0"></div>
+    <b id="output" style="vertical-align:top"></b>
+</body>
+</html>
